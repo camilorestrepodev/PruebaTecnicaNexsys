@@ -1,9 +1,8 @@
 package com.nexsysconnect.PruebaTecnicaJava.Service;
 
-import com.nexsysconnect.PruebaTecnicaJava.DtoRequest.ProductRequest;
+import com.nexsysconnect.PruebaTecnicaJava.Model.ProductRequest;
 import com.nexsysconnect.PruebaTecnicaJava.Model.Category;
 import com.nexsysconnect.PruebaTecnicaJava.Model.Product;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

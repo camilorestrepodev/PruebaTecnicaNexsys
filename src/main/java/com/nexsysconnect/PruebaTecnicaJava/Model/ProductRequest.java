@@ -1,4 +1,4 @@
-package com.nexsysconnect.PruebaTecnicaJava.DtoRequest;
+package com.nexsysconnect.PruebaTecnicaJava.Model;
 
 public class ProductRequest {
     private String title;
