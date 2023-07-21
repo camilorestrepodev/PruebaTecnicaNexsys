@@ -7,10 +7,9 @@ El proyecto consiste en desarrollar un servicio web en Java con Spring Boot que 
 # Requerimientos
 Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
-Java JDK 11 o superior.
-IDE (por ejemplo, IntelliJ, Eclipse) o Editor de texto para visualizar y editar el código.
-Maven para gestionar las dependencias del proyecto.
-Un servidor web (por ejemplo, Tomcat) para desplegar la aplicación.
+- Java JDK 11 o superior.
+- IDE (por ejemplo, IntelliJ, Eclipse) o Editor de texto para visualizar y editar el código.
+- Graddle para gestionar las dependencias del proyecto.
 
 # Estructura del Proyecto
 La estructura del proyecto está organizada de la siguiente manera:
@@ -43,10 +42,10 @@ La estructura del proyecto está organizada de la siguiente manera:
 ```
 
 # Tecnologías Utilizadas
-Java
-Spring Boot
-Spring Web
-RestTemplate
+- Java
+- Spring Boot
+- Spring Web
+- RestTemplate
 
 # Autor
 Nombre: Juan Camilo Restrepo Bareño
