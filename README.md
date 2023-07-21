@@ -12,6 +12,34 @@ IDE (por ejemplo, IntelliJ, Eclipse) o Editor de texto para visualizar y editar 
 Maven para gestionar las dependencias del proyecto.
 Un servidor web (por ejemplo, Tomcat) para desplegar la aplicación.
 
+# Estructura del Proyecto
+La estructura del proyecto está organizada de la siguiente manera:
+
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com.example.backend/
+│   │   │   │   ├── controller/
+│   │   │   │   │   ├── ProductController.java
+│   │   │   │   │   ├── CategoryController.java
+│   │   │   │   ├── model/
+│   │   │   │   │   ├── Product.java
+│   │   │   │   │   ├── Category.java
+│   │   │   │   │   ├── ProductRequest.java
+│   │   │   │   ├── service/
+│   │   │   │   │   ├── ApiClient.java
+│   │   │   ├── BackendApplication.java
+│   ├── resources/
+│   │   ├── application.properties
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── com.example.backend/
+│   │   │   │   ├── controllers/
+│   │   │   │   │   ├── ProductoControllerTest.java
+│   │   │   │   │   ├── CategoriaControllerTest.java
+│   │   │   │   ├── services/
+│   │   │   │   │   ├── ApiClientTest.java
+
 
 # Tecnologías Utilizadas
 Java
