@@ -15,6 +15,7 @@ Un servidor web (por ejemplo, Tomcat) para desplegar la aplicación.
 # Estructura del Proyecto
 La estructura del proyecto está organizada de la siguiente manera:
 
+```
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -39,7 +40,7 @@ La estructura del proyecto está organizada de la siguiente manera:
 │   │   │   │   │   ├── CategoriaControllerTest.java
 │   │   │   │   ├── services/
 │   │   │   │   │   ├── ApiClientTest.java
-
+```
 
 # Tecnologías Utilizadas
 Java
