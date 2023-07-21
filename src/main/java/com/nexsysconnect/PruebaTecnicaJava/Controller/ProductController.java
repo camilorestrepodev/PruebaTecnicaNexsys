@@ -22,7 +22,7 @@ public class ProductController {
         return apiClient.getAllProductos();
     }
 
-    @PostMapping("categories/")
+    @PostMapping("products/")
     public Product createProducto(@RequestBody ProductRequest request) {
         return apiClient.createProducto(request);
     }

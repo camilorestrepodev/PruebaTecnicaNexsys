@@ -29,7 +29,7 @@ public class ApiClient {
     }
 
     public Product createProducto(ProductRequest request) {
-        String url = "https://api.escuelajs.co/api/v1/products";
+        String url = "https://api.escuelajs.co/api/v1/products/";
         ResponseEntity<Product> response = restTemplate.postForEntity(url, request, Product.class);
         return response.getBody();
     }

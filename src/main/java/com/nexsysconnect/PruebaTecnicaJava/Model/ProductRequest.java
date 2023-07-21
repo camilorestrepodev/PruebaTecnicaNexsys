@@ -1,11 +1,13 @@
 package com.nexsysconnect.PruebaTecnicaJava.Model;
 
+import java.util.List;
+
 public class ProductRequest {
     private String title;
     private int price;
     private String description;
-    private String categoryId;
-    private String imageUrl;
+    private int categoryId;
+    private List<String> images;
 
     public ProductRequest() {
     }
@@ -34,19 +36,20 @@ public class ProductRequest {
         this.description = description;
     }
 
-    public String getCategoryId() {
+    public int getCategoryId() {
         return categoryId;
     }
 
-    public void setCategoryId(String categoryId) {
+    public void setCategoryId(int categoryId) {
         this.categoryId = categoryId;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public List<String> getImages() {
+        return images;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setImages(List<String> images) {
+        this.images = images;
     }
 }
+
