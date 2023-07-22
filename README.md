@@ -31,14 +31,6 @@ La estructura del proyecto está organizada de la siguiente manera:
 │   │   │   ├── BackendApplication.java
 │   ├── resources/
 │   │   ├── application.properties
-│   ├── test/
-│   │   ├── java/
-│   │   │   ├── com.example.backend/
-│   │   │   │   ├── controllers/
-│   │   │   │   │   ├── ProductoControllerTest.java
-│   │   │   │   │   ├── CategoriaControllerTest.java
-│   │   │   │   ├── services/
-│   │   │   │   │   ├── ApiClientTest.java
 ```
 
 # Tecnologías Utilizadas
